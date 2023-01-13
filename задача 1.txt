@@ -1,4 +1,4 @@
-﻿// 0. Демонстрация решения
+// 0. Демонстрация решения
 // Напишите программу, 
 //  1 .которая на вход принимает число 
 //  2.и выдаёт его квадрат (число
@@ -14,4 +14,3 @@ Console.WriteLine("Введите целое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int square = number * number;
 Console.WriteLine($"Квадрат числа {number} = {square}");
-

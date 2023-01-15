@@ -10,7 +10,7 @@ Console.WriteLine("Введите два целых числа: a");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите два целых числа: b");
 int b = Convert.ToInt32(Console.ReadLine());
-if (a / b == b) 
+if (a / b == b)
 {
     Console.WriteLine($"Первое число {a} является квадратом второго {b}");
 }
